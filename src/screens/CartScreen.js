@@ -32,7 +32,6 @@ const CartWrapper = styled.div`
     .cart-inner {
       .cart-item {
         font-size: 1.25rem;
-        width: 60vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
