@@ -107,7 +107,7 @@ const CartWrapper = styled.div`
       }
     }
   }
-  /* @media (max-width: 768px) {
+  @media (max-width:800px){
     .card-outer {
       .card-inner {
         .card-item {
@@ -118,7 +118,7 @@ const CartWrapper = styled.div`
         }
       }
     }
-  } */
+  } 
 `;
 
 const CartScreen = ({ match }) => {
