@@ -11,7 +11,7 @@ const FooterWrapper = styled.footer`
 const Footer = () => {
   return (
     <FooterWrapper>
-      <p>Copyright &copy;2021 Pizza Cart. All rights reserved.</p>
+      <p>Copyright &copy; Pizza Cart. All rights reserved.</p>
     </FooterWrapper>
   );
 };
