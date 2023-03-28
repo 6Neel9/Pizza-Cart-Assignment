@@ -239,15 +239,15 @@ const HomeScreen = ({ history }) => {
     dispatch(listProducts());
   }, [dispatch]);
 
-  const sortRating = () => {
-    products.sort((a, b) => parseFloat(a.rating) - parseFloat(b.rating));
-    console.log(products);
-  };
+//   const sortRating = () => {
+//     products.sort((a, b) => parseFloat(a.rating) - parseFloat(b.rating));
+//     console.log(products);
+//   };
 
-  const sortPrice = () => {
-    products.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
-    console.log(products);
-  };
+//   const sortPrice = () => {
+//     products.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
+//     console.log(products);
+//   };
 
   return (
     <HomeWrapper>
@@ -256,22 +256,6 @@ const HomeScreen = ({ history }) => {
       <div className="header">
         <div className="heading">
           <h2>🍕 Pizzas</h2>
-        </div>
-        <div className="sort-actions">
-          <div className="inner">
-            {/* <div>
-              <button>
-                Veg <BiFoodTag />
-              </button>
-              <button>
-                Non-veg <BiFoodTag />
-              </button>
-            </div> */}
-            <h3>
-              Sort by: <button onClick={() => sortPrice()}>Price</button>
-              <button onClick={() => sortRating()}>Rating</button>
-            </h3>
-          </div>
         </div>
       </div>
       <div id="pizza-carousel" className="d-flex reset">
