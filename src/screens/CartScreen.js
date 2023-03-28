@@ -38,8 +38,8 @@ const CartWrapper = styled.div`
         justify-content: space-between;
         padding: 0.5em 0.5em;
         img {
-          width: 120px;
-          margin-right: 25px;
+          width: 100px;
+          margin-right: 15px;
           border-radius: 10px;
         }
         .details {
